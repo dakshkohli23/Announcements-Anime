@@ -3,7 +3,7 @@ const fs = require('fs');
 const data = fs.readFileSync('data.json');
 const animeData = JSON.parse(data);
 
-let readmeContent = `<p align="center"><a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFDA5D&center=true&vCenter=true&repeat=false&width=435&lines=Daftar+Anime+Terbaru" alt="Typing SVG" /></a></p>`;
+let readmeContent = `<p align="center"><a href=""><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFDA5D&center=true&vCenter=true&repeat=false&width=435&lines=List+Of+Latest+Anime" alt="Typing SVG" /></a></p>`;
 
 // Fungsi untuk menulis hasil ke file README.md
 animeData.result.forEach((anime) => {

@@ -14,7 +14,7 @@ animeData.result.forEach((anime) => {
    readmeContent += `<tr>`;
    readmeContent += `<td>`;
    readmeContent += `<p align="center">`;
-   readmeContent += `<img src="${anime.thumb}", height="256">`;
+   readmeContent += `<a href="https://github.com/Julius-Ulee"><img src="${anime.thumb}", height="256"></a>`;
    readmeContent += `</p>`;
    readmeContent += `</td>`;
    readmeContent += `</tr>`;

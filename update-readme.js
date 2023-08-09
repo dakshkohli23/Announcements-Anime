@@ -36,6 +36,10 @@ animeData.result.forEach((anime) => {
    readmeContent += `<td>📕 Link :</td>`;
    readmeContent += `<td align="center"><a href="${anime.link}">Streaming ${anime.title}</a></td>`;
    readmeContent += `</tr>`;
+   readmeContent += `<tr>`;
+   readmeContent += `<td>📔 Id :</td>`;
+   readmeContent += `<td align="center">${anime.id}</td>`;
+   readmeContent += `</tr>`;
    readmeContent += `</table>`;
    readmeContent += `</td>`;
    readmeContent += `</tr>`;
